@@ -9,7 +9,7 @@ using Terraria;
 using TerrariaApi;
 
 namespace Wolfje.Plugins.EnglishPlox {
-    [TerrariaApi.Server.ApiVersion(1, 20)]
+    [TerrariaApi.Server.ApiVersion(1, 21)]
     public class EnglishPloxPlugin : TerrariaApi.Server.TerrariaPlugin {
         public static readonly Regex invalidCharactersRegex = new Regex(@"[^\da-z!@#\$%\^\&\*\(\)\-\+~ ;{}|\[\]:\.,_`]", RegexOptions.IgnoreCase);
 
